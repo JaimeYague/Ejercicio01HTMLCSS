@@ -1,0 +1,226 @@
+  
+/* Header */
+
+.logo{
+    display: flex;
+    align-items: center;
+    width: 20%;
+    background-color: coral;
+}
+.menu{
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    justify-content: center;
+    width: 80%;
+    align-items: center;
+    background-color: darkkhaki;
+
+}
+.menuitem{
+    margin: 5px;
+    font-family: arial, sans-serif;
+    font-size: 18px;
+}
+
+/* Basic */
+
+html{
+    margin: 0;
+    height: 100%;
+}
+
+body{
+    margin: 0;
+    padding: 0;
+    height: 100%;
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+    background-color: blue;
+    background-image: url(swsq3.jpg);
+    background-position: center;
+    background-size: 100%;
+    background-repeat: no-repeat;  
+}
+
+header{
+    display: flex;
+    
+    height: 50px;
+}
+
+main {
+        flex: auto;
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        align-content: center;
+    }
+
+    /* Seccion Inicio */
+
+.containerinicio{
+    display: flex;
+    padding: 20px;
+    margin: 0 auto;
+    border: 2px solid black;
+    max-width: 685px;
+    min-width: 350px;
+    background-color: blueviolet;
+    flex-wrap: wrap;
+    flex-direction: column;
+    align-content: space-around;
+    justify-content: center;
+
+}
+.textinicio {
+    width: 200px;
+    height: 100px;
+    border: 3px solid black;
+    margin: 5px;
+    padding: 10px;
+    display: flex;
+    flex-direction: column;
+    background-color: brown;
+    text-align: center;
+}
+
+h2 {
+    margin: 0 auto;
+}
+
+/* Seccion reservas */
+
+.container-res {
+    display: flex;
+    flex-direction: column;
+    flex-wrap: wrap;
+    max-width: 400px;
+    width: fit-content;
+    margin: 5%;
+    background-color: #c7c0b6;
+    border: 10px solid rgb(112 113 111);
+    border-radius: 5px;
+    padding: 10px;
+    align-items: center;
+}
+
+.reservtext {
+    text-align: center;
+
+}
+
+.myforminput {
+    border: 1px solid black;
+    min-height: 20px;
+    border-radius: 5px;
+    display: flex;
+    margin: 10px;
+    
+}
+
+label {
+    font-family: sans-serif;
+    font-size: 15px;
+    
+}
+
+.submit {
+    width: 150px;
+    height: 30px;
+    border-radius: 5px;
+    
+
+}
+
+.containerfotos{
+    display: flex;
+    padding: 20px;
+    margin: 0 auto;
+    max-width: 685px;
+    min-width: 350px;
+    background-color: blueviolet;
+    flex-wrap: wrap;
+    flex-direction: row;
+    align-content: flex-start;
+    justify-content: center;
+
+}
+.fotosimg {
+    border: 3px solid yellow;
+    background-color: antiquewhite;
+    display: flex;
+    margin: 10px;
+    padding: 5px;
+    width: 150px;
+    height: 150px;
+    flex-wrap: wrap;
+    flex-direction: row;
+    background-image: url(swsq3.jpg);
+    background-position: center;
+    background-size: 100%;
+    background-repeat: no-repeat;
+}
+
+/* Seccion concept */
+
+.containerconcept{
+    display: flex;
+    padding: 20px;
+    margin: 0 auto;
+    border: 2px solid black;
+    max-width: 685px;
+    min-width: 350px;
+    background-color: blueviolet;
+    flex-wrap: wrap;
+    flex-direction: column;
+    align-content: space-around;
+    justify-content: center;
+
+}
+
+.textconcept{
+    width: 450px;
+    height: 450px;
+    border: 3px solid black;
+    margin: 5px;
+    padding: 10px;
+    display: flex;
+    flex-direction: column;
+    background-color: brown;
+    text-align: center;
+
+
+}
+
+/* Seccion carta */
+
+.containercarta{
+    display: flex;
+    padding: 20px;
+    margin: 0 auto;
+    border: 2px solid black;
+    max-width: 972px;
+    min-width: 350px;
+    background-color: blueviolet;
+    flex-wrap: nowrap;
+    flex-direction: row;
+    align-content: space-around;
+    justify-content: center;
+
+}
+
+.textcarta{
+    width: 450px;
+    height: 450px;
+    border: 3px solid black;
+    margin: 5px;
+    padding: 10px;
+    display: flex;
+    flex-direction: column;
+    background-color: brown;
+    text-align: center;
+
+
+}

@@ -1,0 +1,58 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="stylerest.css">
+</head>
+<body>
+    <header>
+        
+            <div class="logo">
+                
+            </div>
+            <div class="menu">
+                <div class="menuitem"><a href="inicio.html">Home</a></div>
+                <div class="menuitem"><a href="concept.html">Concepto</a></div>
+                <div class="menuitem"><a href="fotos.html">Fotos</a></div>
+                <div class="menuitem"><a href="carta.html">Carta</a></div>
+                <div class="menuitem"><a href="reservas.html">Reservas</a></div>
+            </div>
+        
+    </header>
+    <main>
+        <form action="GET" target="#">
+
+            <div class="container-res">
+                <label for="input-name">Introduce tu nombre:</label>
+                <input type="text"  id="nombre" class="myforminput" name="nombre">
+                <label for="input-name">Introduce tus apellidos:</label>
+                <input type="text"  id="apellidos" class="myforminput" name="apellidos">
+                <!--- <label for="input-name">¿Para cuantas personas?:</label>
+                <input type="number"  id="personas" class="myforminput" name="personas"> --->
+                    <label for="persnum">¿Para cuantas personas es la reserva?</label>
+                    <select name="personas" id="personas" class="myforminput" >
+                      <option value="1">1</option>
+                      <option value="2">2</option>
+                      <option value="3">3</option>
+                      <option value="4">4</option>
+                      <option value="5">5</option>
+                      <option value="6">6</option>
+                      <option value="7">7</option>
+                      <option value="8">8</option>
+                    </select>
+                <label for="input-name">Introduce tu E-mail:</label>
+                <input type="email"  id="email" class="myforminput" name="email">
+                <label for="input-name">Introduce telefono personal:</label>
+                <input type="tel"  id="telefono" class="myforminput" name="telefono"><br>
+                <input type="submit"  class="submit" onclick="checkForm()" value="Enviar">
+                <h3 class="reservtext">En caso de no haber disponibilidad nos pondremos en contacto en la mayor brevedad via E-mail/Telefono</h3>
+                </div>
+            </div>
+            
+            
+            </form>
+    </main>
+    
+</body>
